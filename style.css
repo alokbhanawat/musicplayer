@@ -1,0 +1,38 @@
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e1a1a;
+    font-family: Arial, sans-serif;
+}
+
+.music-player {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    text-align: center;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.controls button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 50px;
+}
+
+.controls button:hover {
+    background-color: #010408;
+}
